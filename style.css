@@ -1,0 +1,99 @@
+body {
+    background: #fff;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12pt;
+    line-height: 1.2;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.headline {
+    display: flex;
+}
+
+.headline-left {
+    margin-top: 0;
+    margin-left: 4mm;
+    font-size: 10pt;
+    text-align: center;
+}
+
+.headline-left_structure {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+.headline-left_out {
+    margin: 0;
+    font-size: 12px;
+}
+
+.headline-right {
+    margin-top: 62px;
+    margin-left: 120px;
+    text-align: left;
+}
+
+.info_head {
+    font-size: 14pt;
+    margin-top: 4mm;
+    text-align: center;
+    font-weight: bold;
+}
+
+.info_regular_terms {
+    display: flex;
+}
+
+.info p,
+.condition-desc {
+    margin: 2mm 0;
+}
+
+.conditions {
+    page-break-after: always;
+}
+
+.conditions_unit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    margin: 12mm 0;
+}
+
+.applicant_person {
+    margin: 10mm 0;
+}
+
+.sign {
+    display: flex;
+    justify-content: space-between;
+    margin: 16mm 0;
+}
+
+.sign p {
+    font-weight: bold;
+}
+
+
+@page 
+{
+    size: auto;
+    margin: 0mm;
+}
+
+html {
+    background-color: #fff;
+    margin: 0;
+}
+
+body {
+    margin: 10mm 10mm 20mm 30mm;
+}
